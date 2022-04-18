@@ -1,13 +1,9 @@
 # 
-# Translators:
-# CLI team <prj_cli_team@arduino.cc>, 2022
-# 
 msgid ""
 msgstr ""
-"Last-Translator: CLI team <prj_cli_team@arduino.cc>, 2022\n"
-"Language-Team: Arabic (https://www.transifex.com/arduino-1/teams/108174/ar/)\n"
-"Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Language-Team: Mongolian (https://www.transifex.com/arduino-1/teams/108174/mn/)\n"
+"Language: mn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: version/version.go:53
 msgid "%[1]s %[2]s Version: %[3]s Commit: %[4]s Date: %[5]s"
@@ -27,7 +23,7 @@ msgstr ""
 
 #: legacy/builder/builder_utils/utils.go:432
 msgid "%[1]s pattern is missing"
-msgstr "%[1]s التنسيق مفقود"
+msgstr ""
 
 #: arduino/discovery/discovery.go:75
 msgid "%[1]s, message: %[2]s"
@@ -96,7 +92,7 @@ msgstr ""
 
 #: legacy/builder/print_used_libraries_if_verbose.go:34
 msgid "(legacy)"
-msgstr "الشكل القديم"
+msgstr ""
 
 #: cli/lib/install.go:79
 msgid ""
@@ -173,7 +169,7 @@ msgstr ""
 
 #: legacy/builder/phases/core_builder.go:126
 msgid "Archiving built core (caching) in: %[1]s"
-msgstr "أرشفة الأساس المبني (الذاكرة المخبأة) في : %[1]s"
+msgstr ""
 
 #: cli/sketch/sketch.go:31 cli/sketch/sketch.go:32
 msgid "Arduino CLI sketch commands."
@@ -254,7 +250,7 @@ msgstr ""
 
 #: legacy/builder/merge_sketch_with_bootloader.go:69
 msgid "Bootloader file specified but missing: %[1]s"
-msgstr "ملف محمل الإقلاع تم تحدديده لكن مفقود:  %[1]s"
+msgstr ""
 
 #: cli/compile/compile.go:98
 msgid "Builds of 'core.a' are saved into this path to be cached and reused."
@@ -405,7 +401,7 @@ msgstr ""
 
 #: legacy/builder/builder.go:63
 msgid "Compiling sketch..."
-msgstr "ترجمة الشيفرة البرمجية..."
+msgstr ""
 
 #: cli/config/init.go:90
 msgid ""
@@ -513,7 +509,7 @@ msgstr ""
 
 #: cli/monitor/monitor.go:195
 msgid "Default"
-msgstr "إفتراضي"
+msgstr ""
 
 #: cli/cache/clean.go:31
 msgid "Delete Boards/Library Manager download cache."
@@ -1112,12 +1108,10 @@ msgid ""
 "Global variables use %[1]s bytes (%[3]s%%) of dynamic memory, leaving %[4]s "
 "bytes for local variables. Maximum is %[2]s bytes."
 msgstr ""
-"المتغيرات العامة تستخدم  %[1]s بايت من (%[3]s%%) الذاكرة المتغيرة، تبقى "
-"%[4]s بايت للمتغيرات الداخلية. القيمة القصوى  %[2]s بايت."
 
 #: legacy/builder/phases/sizer.go:139
 msgid "Global variables use %[1]s bytes of dynamic memory."
-msgstr "المتغيرات العامة تستخدم  %[1]s بايت من الذاكرة المتغيرة."
+msgstr ""
 
 #: cli/core/list.go:84 cli/core/search.go:114 cli/monitor/monitor.go:195
 #: cli/outdated/outdated.go:62
@@ -1152,7 +1146,7 @@ msgstr ""
 
 #: cli/core/list.go:84 cli/lib/list.go:124
 msgid "Installed"
-msgstr "تم التنصيب"
+msgstr ""
 
 #: commands/instances.go:628 commands/lib/install.go:112
 msgid "Installed %s"
@@ -1408,7 +1402,7 @@ msgstr ""
 
 #: legacy/builder/phases/sizer.go:174
 msgid "Low memory available, stability problems may occur."
-msgstr "ذاكرة منخفضة متبقية، مشاكل عدم إستقرار قد تحدث."
+msgstr ""
 
 #: cli/lib/search.go:164
 msgid "Maintainer: %s"
@@ -1425,7 +1419,7 @@ msgstr ""
 
 #: legacy/builder/fail_if_imported_library_is_wrong.go:40
 msgid "Missing '%[1]s' from library in %[2]s"
-msgstr "'%[1]s' مفقود من المكتبة في %[2]s"
+msgstr ""
 
 #: arduino/errors.go:152
 msgid "Missing FQBN (Fully Qualified Board Name)"
@@ -1461,7 +1455,7 @@ msgstr ""
 
 #: legacy/builder/print_used_and_not_used_libraries.go:45
 msgid "Multiple libraries were found for \"%[1]s\""
-msgstr "العثور على عدة مكتبات لـ\"%[1]s\""
+msgstr ""
 
 #: cli/board/details.go:193 cli/core/list.go:84 cli/core/search.go:114
 #: cli/lib/list.go:124 cli/outdated/outdated.go:62
@@ -1525,11 +1519,11 @@ msgstr ""
 
 #: legacy/builder/phases/sizer.go:164
 msgid "Not enough memory; see %[1]s for tips on reducing your footprint."
-msgstr "الذاكرة غير كافية؛ راجع %[1]s لنصائح حول استخدامها بكفائة"
+msgstr ""
 
 #: legacy/builder/print_used_and_not_used_libraries.go:48
 msgid "Not used: %[1]s"
-msgstr "غير مستخدم : %[1]s"
+msgstr ""
 
 #: cli/board/details.go:164
 msgid "OS:"
@@ -1702,7 +1696,7 @@ msgstr ""
 
 #: cli/board/list.go:87 cli/board/list.go:125
 msgid "Port"
-msgstr "منفذ"
+msgstr ""
 
 #: cli/monitor/monitor.go:164 cli/monitor/monitor.go:171
 msgid "Port closed:"
@@ -1939,16 +1933,12 @@ msgstr ""
 #: legacy/builder/phases/sizer.go:159
 msgid "Sketch too big; see %[1]s for tips on reducing it."
 msgstr ""
-"الشيفرة البرمجية كبير جدا; راجع %[1]s\n"
-"لنصائح لاختصارها."
 
 #: legacy/builder/phases/sizer.go:127
 msgid ""
 "Sketch uses %[1]s bytes (%[3]s%%) of program storage space. Maximum is %[2]s"
 " bytes."
 msgstr ""
-"الشيفرة البرمجية تستخدم %[1]s بايت (%[3]s%%) من مساحة البرنامج. أقصى حد "
-"%[2]s بايت."
 
 #: cli/arguments/sketch.go:61
 msgid ""
@@ -2099,7 +2089,7 @@ msgstr ""
 
 #: cli/board/list.go:87 cli/board/list.go:125
 msgid "Type"
-msgstr "نوع"
+msgstr ""
 
 #: cli/lib/search.go:173
 msgid "Types: %s"
@@ -2260,7 +2250,7 @@ msgstr ""
 
 #: legacy/builder/print_used_and_not_used_libraries.go:46
 msgid "Used: %[1]s"
-msgstr "مستخدم : %[1]s"
+msgstr ""
 
 #: arduino/libraries/librariesmanager/install.go:68
 #: arduino/libraries/librariesmanager/install.go:84
@@ -2283,11 +2273,11 @@ msgstr ""
 
 #: legacy/builder/print_used_libraries_if_verbose.go:44
 msgid "Using library %[1]s at version %[2]s in folder: %[3]s %[4]s"
-msgstr "استخدام المكتبة %[1]s الإصدار %[2]s في المجلد:  %[3]s %[4]s"
+msgstr ""
 
 #: legacy/builder/print_used_libraries_if_verbose.go:38
 msgid "Using library %[1]s in folder: %[2]s %[3]s"
-msgstr "استخدام المكتبة %[1]s في المجلد:  %[2]s %[3]s"
+msgstr ""
 
 #: legacy/builder/phases/core_builder.go:105
 msgid "Using precompiled core: %[1]s"
@@ -2301,7 +2291,7 @@ msgstr ""
 #: legacy/builder/builder_utils/utils.go:198
 #: legacy/builder/builder_utils/utils.go:401
 msgid "Using previously compiled file: %[1]s"
-msgstr "استخدام الملف المترجم سابقا: %[1]s"
+msgstr ""
 
 #: cli/core/download.go:36 cli/core/install.go:40
 msgid "VERSION"
@@ -2341,8 +2331,6 @@ msgid ""
 "WARNING: library %[1]s claims to run on %[2]s architecture(s) and may be "
 "incompatible with your current board which runs on %[3]s architecture(s)."
 msgstr ""
-"تحذير: المكتبة %[1]s تعمل على معمارية %[2]s وقد لا تتوافق مع لوحتك الحالية "
-"التي تعمل على معمارية %[3]s."
 
 #: commands/upload/upload.go:493
 msgid "Waiting for upload port..."
@@ -2358,8 +2346,6 @@ msgid ""
 "Warning: platform.txt from core '%[1]s' contains deprecated %[2]s, "
 "automatically converted to %[3]s. Consider upgrading this core."
 msgstr ""
-"تحذير: platform.txt من الاساس '%[1]s' يفتقد خاصية '%[2]s', استخدام قيمة "
-"افتراضية '%[3]s'. بأخذ بالاعتبار ترقية هذا الاساس."
 
 #: commands/upload/upload.go:389
 msgid ""
